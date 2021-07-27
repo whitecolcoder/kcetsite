@@ -1,0 +1,33 @@
+.lod_header{
+    justify-content: center;
+    justify-content: space-around;
+    width:40rem;
+    margin-top:10px;
+    margin-bottom: 10px;
+    background:white;
+    font-family: cursive;
+
+}
+.lod_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 1;
+}
+ .lod_header tr:nth-child(odd){
+    padding: 0.32rem;
+    width: max-content;
+    background:rgb(252, 125, 125);
+
+}
+table td{
+    padding:18px;
+    padding-right: 65px;
+}
+@media screen and (max-width:698px) {
+    html{
+        size: 55%;
+    }
+    
+}
